@@ -1,0 +1,80 @@
+.footer {
+  background: #d2e8f740;
+  color: #2b3f6d;
+  padding: 60px 5% 20px;
+}
+
+/* الشبكة */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  text-align: center; 
+}
+
+/* البراند */
+.footer-brand p {
+  margin-top: 15px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* العناوين */
+.footer-links h4 {
+  color: #2b3f6d;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+/* الروابط */
+.footer-links a,
+.footer-links p {
+  display: block;
+  color: #2b3f6d;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #b5d8fb;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+  margin-top: 15px;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid rgba(43, 63, 109, 0.15);
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #2b3f6d;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px 15px;
+  }
+
+  .footer-container {
+    gap: 30px;
+  }
+
+  .footer-links h4 {
+    font-size: 1rem;
+  }
+
+  .footer-links a,
+  .footer-links p {
+    font-size: 0.9rem;
+  }
+}

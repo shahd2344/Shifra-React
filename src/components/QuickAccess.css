@@ -1,0 +1,53 @@
+/* Quick cards layout */
+.quick {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.quick-card {
+  background: white;
+  padding: 40px 25px;
+  border-radius: 18px;
+  border: 1px solid #eef2f7;
+  transition: all 0.3s ease;
+}
+
+.quick-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* Icon box */
+.icon-container {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #b5d8fb, #6c8095);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon */
+.small-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* Text */
+.quick-card h4 {
+  font-size: 1.15rem;
+  color: #1a2a4e;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.quick-card p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+}
