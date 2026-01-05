@@ -26,4 +26,11 @@ Shifra is a modern educational web platform built with **React** and **Vite**, d
 
 ---
 
+
+
+
+
+
+src/ ├── components/ │   ├── Navbar.jsx │   ├── Footer.jsx │ ├── pages/ │   ├── Home.jsx │   ├── Courses.jsx │   ├── Details.jsx │   ├── Book.jsx │   ├── Login.jsx │   ├── SignUp.jsx │ ├── assets/ │   └── images/ │ ├── App.jsx ├── main.jsx
+
 ## 📂 Project Structure
